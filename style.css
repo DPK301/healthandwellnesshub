@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oxygen:wght@300&family=Roboto+Slab:wght@300&family=Roboto:wght@300&display=swap');
+body{
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+    padding: 0;
+}
+.contain{
+     background-color:rgb(68, 68, 108) ;
+     width: 1100px;
+     height:30px;
+     color: white;
+     position: absolute;
+     left: 100px;
+     display: flex;
+     top: 35px;
+    
+}
+div.sticky{
+   
+    position: sticky;
+    top: 0;
+    background-color: yellow;
+    padding: 50px;
+    width: 100%;
+    height: 1050px;
+    z-index: -1;
+   
+    background-image: url(./image/lotus\ 3.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.line{ background-color:white ;
+    width: 1100px;
+    height:1px;
+    color: white;
+    position: absolute;
+    left: 100px;
+    top: 70px;
+   }
+.contain hr{
+    color: white;
+}
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 700px;
+    align-content: space-around;
+    top: 410px;
+}
+.overlay p{
+    font-size: 90px;
+    color: white;
+    margin: 0;
+}
+.overlay h3 {
+    font-size: 40px;
+    color: white;
+}
+#rotate img {
+    width: 900px;
+    height: 400px;
+    transition: width 2s, height 2s, transform 2s; 
+
+}
+#rotate img:hover{
+    width: 1000px;
+    height: 500px;
+    transform: rotate(360deg);
+}
+.one{
+    width: 100%;
+    height: 1000px;
+    background-color:rgb(92, 84, 140);
+    padding-top: 90px;
+    
+    text-align: center;
+
+}
+.one h3{
+    font-size: 100px;
+    text-align: center;
+    color: white;
+}
+.one p{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+
+}
+.one img{
+    border-radius: 100%;
+    width: 350px;
+}
+.image{
+    background-color:rgb(92, 84, 140);
+    width:100%px;
+    height: 850px;
+    display: flex;
+    justify-content: space-around;
+}
+.image button{
+    border: 1px solid white;
+    background-color:rgb(92, 84, 140); 
+    color: white;
+    width: 150px;
+    height: 50px;
+   margin-top: 65px;
+    font-size: 23px;
+    padding-left: 10px;
+    padding-right:10px ;
+}
+.image button:hover{
+    background-color: white;
+    color:rgb(92, 84, 140);
+}
+
+
